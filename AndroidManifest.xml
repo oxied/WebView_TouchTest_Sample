@@ -38,7 +38,6 @@
         </activity>
     
         <service android:name="com.soasta.android.touchtest.TouchTestService" android:enabled="true" android:exported="false" />
-        <service android:name="com.soasta.android.touchtest.TouchTestService" android:enabled="true" android:exported="false" />
         
         </application>
 
