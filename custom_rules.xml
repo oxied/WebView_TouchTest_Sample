@@ -3,7 +3,7 @@
   <taskdef resource="touchtest.anttasks.properties">
       <classpath>
         <fileset dir="TouchTestDriver">
-            <include name="*.jar" />
+            <include name="*.jar"/>
         </fileset>
       </classpath>
   </taskdef>
@@ -16,7 +16,7 @@
 
   <target name="-post-package">
 
-      <touchtest-post-package if="touchtest.enabled" />
+      <touchtest-post-package if="touchtest.enabled"/>
 
   </target>
 
