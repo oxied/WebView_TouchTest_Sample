@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2011. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Merge in the grey background -->
+    <include layout="@layout/gd_common_background_red"/>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <!-- Common header elements -->
+        <include layout="@layout/gd_common_powered_by"/>
+        <include layout="@layout/gd_common_navbar"/>
+        <include layout="@layout/gd_common_spacer"/>
+
+        <!-- Body of the view begins -->
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:layout_weight="0.75"
+            android:layout_gravity="center_horizontal">
+        
+	        <TextView
+	            android:id="@+id/COM_GOOD_GD_EPROV_PROGRESS_MSG"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:scrollbarStyle="outsideInset"
+	            android:fillViewport="true"
+	            android:paddingBottom="5dp"
+	            android:state_enabled="true"
+	            android:textStyle="bold"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="6dp"
+	            android:textColor="#ffffff"/>
+	
+	        <ProgressBar
+	            android:id="@+id/COM_GOOD_GD_EPROV_PROGRESS_OVERALL"
+	            style="?android:attr/progressBarStyleHorizontal"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="6dp"
+	            android:layout_marginRight="6dp"/>
+	
+	        <TextView
+	            android:id="@+id/COM_GOOD_GD_EPROV_PROGRESS_STATUS_TEXT"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:scrollbarStyle="outsideInset"
+	            android:fillViewport="true"
+	            android:paddingBottom="5dp"
+	            android:state_enabled="true"
+	            android:textStyle="bold"
+	            android:layout_marginLeft="6dp"
+				android:layout_marginTop="5dp"
+				android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

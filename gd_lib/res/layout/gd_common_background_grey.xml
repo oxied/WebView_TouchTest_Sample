@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gd_background_color"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <ImageView android:id="@+id/gd_background_image"
+        android:background="@drawable/gd_ui_default_logo_grey_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/COM_GOOD_GD_BACKGROUND_IMAGE_DESCRIPTION"/>
+</LinearLayout>

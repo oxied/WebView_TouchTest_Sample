@@ -1,0 +1,3 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/gd_ui_default_logo_gray"
+    android:gravity="center"/>

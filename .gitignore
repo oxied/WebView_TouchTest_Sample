@@ -1,8 +1,12 @@
 .DS_Store
 ._.DS_Store
-
 *.orig
 
 /bin
 /gen
 /obj
+/local.properties
+
+/gd_lib/bin
+/gd_lib/gen
+/gd_lib/local.properties

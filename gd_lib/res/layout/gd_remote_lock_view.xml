@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2011. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <!-- Merge in the grey background -->
+    <include layout="@layout/gd_common_background_grey"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+        
+        <!-- Common header elements -->
+        <include layout="@layout/gd_common_powered_by"/>
+        <include layout="@layout/gd_common_navbar"/>
+        <include layout="@layout/gd_common_spacer"/>
+            
+        <!-- Body of the view begins -->
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:layout_weight="0.95"
+            android:layout_gravity="center_horizontal">
+	    
+	    <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:orientation="vertical"
+	            android:padding="10dp"
+	            >
+	        
+	        <LinearLayout
+	            android:id="@+id/COM_GOOD_GD_REMOTE_LOCK_TITLE_SECTION"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:layout_gravity="center_horizontal"
+	            android:baselineAligned="false"
+	            >
+	                
+	           <LinearLayout
+	                    android:id="@+id/linearLayoutRemoteLockTitle"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="match_parent"
+	                    android:gravity="right"
+	                    android:layout_weight="2"
+	            >
+	            
+	                <TextView
+	                    android:id="@+id/COM_GOOD_GD_REMOTE_LOCK_TITLE"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="center_horizontal"
+	                    android:layout_gravity="center_vertical"
+	                    android:textAppearance="?android:attr/textAppearanceLarge"
+	                    android:textStyle="bold"
+	                    android:textColor="#FFFFFF"
+	                    android:textSize="18dp"
+	                    android:text="@string/COM_GOOD_GD_REMOTE_LOCK_TITLE" >
+	                </TextView>
+	            
+	            </LinearLayout>
+	            
+	           <LinearLayout
+	                    android:id="@+id/linearLayoutInfo"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="match_parent"
+	                    android:gravity="right"
+	                    android:layout_weight="1"
+	                    >
+	            
+	                <ImageButton
+	                        android:id="@+id/COM_GOOD_GD_REMOTE_LOCK_INFO_BUTTON"
+	                        android:layout_width="40dp"
+	                        android:layout_height="40dp"
+	                        android:background="#00000000"
+	                        android:scaleType="fitCenter"
+	                        android:src="@drawable/gd_ui_btn_info"
+	                        android:contentDescription="@string/COM_GOOD_GD_INFO_BUTTON_DESCRIPTION"/>
+	
+	            </LinearLayout>
+	                
+	        </LinearLayout>
+	        
+	
+	        <!-- this is where the actual ticket goes -->
+	        <TextView
+	            android:id="@+id/COM_GOOD_GD_REMOTE_LOCK_TICKET"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:typeface="monospace"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="#000"
+	            android:textSize="15dp"
+	            android:text="@string/COM_GOOD_GD_REMOTE_LOCK_TICKET_SAMPLE"
+	            android:visibility="visible"
+	            >
+	        </TextView>
+	    </LinearLayout>
+	
+	    <!-- Pwd fields -->
+	    <LinearLayout
+	            android:id="@+id/linearLayout3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:orientation="horizontal"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            >
+	
+	            <EditText
+	                android:id="@+id/editTextForPwd1"
+	                style="@style/GDUIDefaultThemeEditText2"
+	                android:layout_height="wrap_content"
+	                android:layout_width="0dp"
+	                android:layout_weight="1"
+	                android:singleLine="true"
+	                android:maxLength="5"
+	                android:ems="5"
+	                android:inputType="textPassword"
+	                android:imeOptions="actionNone"
+	                android:nextFocusDown="@+id/editTextForPwd2"
+	                android:nextFocusRight="@+id/editTextForPwd2"
+	                >
+	            </EditText>
+	
+	            <EditText
+	                android:id="@+id/editTextForPwd2"
+	                style="@style/GDUIDefaultThemeEditText2"
+	                android:layout_height="wrap_content"
+	                android:layout_width="0dp"
+	                android:layout_weight="1"
+	                android:singleLine="true"
+	                android:maxLength="5"
+	                android:ems="5"
+	                android:inputType="textPassword"
+	                android:imeOptions="actionNone"
+	                android:nextFocusUp="@+id/editTextForPwd1"
+	                android:nextFocusLeft="@+id/editTextForPwd1"
+	                android:nextFocusDown="@+id/editTextForPwd3"
+	                android:nextFocusRight="@+id/editTextForPwd3"
+	                >
+	            </EditText>
+	
+	            <EditText
+	                android:id="@+id/editTextForPwd3"
+	                style="@style/GDUIDefaultThemeEditText2"
+	                android:layout_height="wrap_content"
+	                android:layout_width="0dp"
+	                android:layout_weight="1"
+	                android:singleLine="true"
+	                android:maxLength="5"
+	                android:ems="5"
+	                android:inputType="textPassword"
+	                android:imeOptions="actionNone"
+	                android:nextFocusUp="@+id/editTextForPwd2"
+	                android:nextFocusLeft="@+id/editTextForPwd2"
+	                android:nextFocusDown="@+id/editTextForPwd4"
+	                android:nextFocusRight="@+id/editTextForPwd4"
+	                >
+	            </EditText>
+	
+	            <EditText
+	                android:id="@+id/editTextForPwd4"
+	                style="@style/GDUIDefaultThemeEditText2"
+	                android:layout_height="wrap_content"
+	                android:layout_width="0dp"
+	                android:layout_weight="1"
+	                android:singleLine="true"
+	                android:maxLength="5"
+	                android:ems="5"
+	                android:inputType="textPassword"
+	                android:imeOptions="actionNext"
+	                android:nextFocusUp="@+id/editTextForPwd3"
+	                android:nextFocusLeft="@+id/editTextForPwd3"
+	                >
+	            </EditText>
+	
+	    </LinearLayout>
+	
+	    <!-- guidance section -->
+	    <LinearLayout
+	            android:id="@+id/linearLayout4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:orientation="vertical"
+	            android:padding="10dp"
+	            >
+	
+	        <TextView
+	            android:id="@+id/COM_GOOD_GD_REMOTE_LOCK_MESSAGE"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="#FFFFFF"
+	            android:text="@string/COM_GOOD_GD_REMOTE_LOCK_MESSAGE"
+	            >
+	        </TextView>
+	    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</merge>

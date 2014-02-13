@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2011. All Rights Reserved. -->
+<resources>
+    <string name="COM_GOOD_GD_EPROV_DLG_ENTER_HINT">Enter</string>
+    <string name="COM_GOOD_GD_EPROV_DLG_ACCESS_HINT">Access</string>
+    <string name="COM_GOOD_GD_EPROV_DLG_UNLOCK_HINT">Unlock</string>
+    <string name="COM_GOOD_GD_EPROV_DLG_KEY_HINT">Key</string>
+    <string name="COM_GOOD_GD_EPROV_DLG_ACCESS_KEY_SEPARATOR">-</string>
+    <string name="COM_GOOD_GD_BACKGROUND_IMAGE_DESCRIPTION">Good Technology, inc</string>
+    <string name="COM_GOOD_GD_NEXT_BUTTON_DESCRIPTION">Next</string>
+    <string name="COM_GOOD_GD_CANCEL_BUTTON_DESCRIPTION">Cancel</string>
+    <string name="COM_GOOD_GD_INFO_BUTTON_DESCRIPTION">Information</string>
+    <string name="COM_GOOD_GD_ENTER_PASSWORD_DESCRIPTION">Enter Password</string>
+    <string name="COM_GOOD_GD_BLOCK_VIEW_MESSAGE">XXX unused Your device has been wiped!</string>
+    <string name="COM_GOOD_GD_REMOTE_LOCK_TITLE">Application Remote Locked</string>
+    <string name="COM_GOOD_GD_REMOTE_LOCK_MESSAGE">Contact your IT administrator with the following unlock code to get a temporary password to unlock this application.</string>
+    <string name="COM_GOOD_GD_REMOTE_LOCK_TICKET_SAMPLE">ff4z sxqb hcgn yk3h dba9</string>
+
+</resources>
+

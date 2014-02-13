@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) Visto Corporation dba Good Technology, 2011. All Rights Reserved. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <!-- Merge in the grey background -->
+    <include layout="@layout/gd_common_background_red"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.76" >
+
+        <ProgressBar
+            android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_PROGRESSBAR"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+	    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+        
+        <!-- Common header elements -->
+        <include layout="@layout/gd_common_powered_by"/>
+        <include layout="@layout/gd_common_navbar"/>
+        <include layout="@layout/gd_common_spacer"/>
+
+        <!-- Body of the view begins -->
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.95"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_TITLE_VIEW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/COM_GOOD_GD_BLOCK_VIEW_MESSAGE_VIEW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/COM_GOOD_GD_BLOCK_VIEW_MESSAGE"
+                android:textColor="#ffffff"
+                android:linksClickable="false"
+                android:autoLink="web" />
+
+        </LinearLayout>
+
+	</LinearLayout>
+</merge>
