@@ -7,6 +7,8 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.good.gd.GDAndroid;
+
 public class MainActivity extends Activity {
 
 	private WebView webView;
@@ -15,6 +17,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		GDAndroid.getInstance().activityInit(this);
 
 		webView = (WebView) findViewById(R.id.webview);
 		webView.loadUrl("http://bash.im/");

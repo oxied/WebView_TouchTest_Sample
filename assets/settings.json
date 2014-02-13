@@ -1,0 +1,11 @@
+{
+    //"GDLibraryMode": "GDEnterpriseSimulation",
+    "GDConsoleLogger": [
+        "GDFilterErrors_",
+        "GDFilterWarnings_",
+        "GDFilterInfo_",
+        "GDFilterDetailed_",
+    ],
+    "GDApplicationID": "com.example.webview2",
+    "GDApplicationVersion": "1.2.3.0"
+}

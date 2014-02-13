@@ -16,29 +16,34 @@
         android:targetSdkVersion="18" />
 
     <application
+        android:name=".WebViewApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.webview2.MainActivity"
+            android:alwaysRetainTaskState="true"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <intent-filter>
-                <data android:scheme="touchtest-933eb3f8-0221-441c-817e-4c86218e1560" />
+                <data android:scheme="touchtest-gd-933eb3f8-0221-441c-817e-4c86218e1560" />
+
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    
-        <service android:name="com.soasta.android.touchtest.TouchTestService" android:enabled="true" android:exported="false" />
-        
-        </application>
+
+        <service
+            android:name="com.soasta.android.touchtest.TouchTestService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
 
 </manifest>

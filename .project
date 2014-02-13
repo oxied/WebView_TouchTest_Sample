@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><projectDescription>
-	<name>WebView2</name>
+	<name>WebView2 for Good</name>
 	<comment/>
 	<projects>
 	</projects>
@@ -19,7 +19,21 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand><name>org.eclipse.ui.externaltools.ExternalToolBuilder</name><triggers>full,incremental,</triggers><arguments><dictionary><key>incclean</key><value>true</value></dictionary><dictionary><key>LaunchConfigHandle</key><value>&lt;project&gt;/.externalToolBuilders/post_compile_touchtest.launch</value></dictionary></arguments></buildCommand><buildCommand>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/post_compile_touchtest.launch</value>
+				</dictionary>
+				<dictionary>
+					<key>incclean</key>
+					<value>true</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
 			<arguments>
 			</arguments>
