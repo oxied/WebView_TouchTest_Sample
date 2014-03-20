@@ -1,0 +1,32 @@
+2014-03-20 18:29:23,043 INFO  [main] [h] 
+Starting MATT utility with following arguments:
+2014-03-20 18:29:23,043 INFO  [main] [h] -project
+2014-03-20 18:29:23,043 INFO  [main] [h] /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/
+2014-03-20 18:29:23,043 INFO  [main] [h] -url
+2014-03-20 18:29:23,043 INFO  [main] [h] http://testdrive.soasta.com/concerto/
+2014-03-20 18:29:23,044 INFO  [main] [h] -username
+2014-03-20 18:29:23,044 INFO  [main] [h] gleb.mozheiko@emc.com
+2014-03-20 18:29:23,352 INFO  [main] [c] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/res/values/strings.xml
+2014-03-20 18:29:23,357 INFO  [main] [c] Found "app_name" value "Syncplicity" in strings.xml.
+2014-03-20 18:29:23,358 INFO  [main] [c] The /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/TouchTestDriver directory does not exist; creating it.
+2014-03-20 18:29:23,391 INFO  [main] [c] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/custom_rules.xml
+2014-03-20 18:29:23,423 INFO  [main] [c] Configuring "custom_rules.xml".
+2014-03-20 18:29:23,446 INFO  [main] [b] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/.project
+2014-03-20 18:29:23,450 INFO  [main] [b] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/.classpath
+2014-03-20 18:29:23,454 INFO  [main] [b] Build command "org.eclipse.ui.externaltools.ExternalToolBuilder" has already been added to the project, skipping.
+2014-03-20 18:29:23,454 INFO  [main] [c] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/res/values/touchtest.xml
+2014-03-20 18:29:25,886 INFO  [main] [c] The /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/TouchTestDriver directory does not exist; creating it.
+2014-03-20 18:29:26,888 INFO  [main] [c] Using launch URL touchtest-cb10f3bb-d75e-428a-a546-eaec8498602f://
+2014-03-20 18:29:26,909 INFO  [main] [a] Adding the intent "touchtest-cb10f3bb-d75e-428a-a546-eaec8498602f" to the manifest.
+2014-03-20 18:29:26,947 INFO  [main] [c] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/custom_rules.xml
+2014-03-20 18:29:26,957 INFO  [main] [c] Configuring "custom_rules.xml".
+2014-03-20 18:29:27,024 INFO  [main] [b] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/.project
+2014-03-20 18:29:27,027 INFO  [main] [b] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/.classpath
+2014-03-20 18:29:27,030 INFO  [main] [b] Build command "org.eclipse.ui.externaltools.ExternalToolBuilder" has already been added to the project, skipping.
+2014-03-20 18:29:27,053 INFO  [main] [c] Loading /Users/oxied/Work/git/new_android/android/Syncplicity-nonGD/res/values/touchtest.xml
+2014-03-20 18:29:27,056 INFO  [main] [c] Found "android:icon" attribute value "@drawable/ic_app".
+2014-03-20 18:29:27,056 WARN  [main] [c] The "android:icon" attribute value "ic_app" does not match any known file locations.
+2014-03-20 18:29:27,408 ERROR [main] [h] Already Have A Mobile App Object By This Name. Please Change The Name And Try Again.
+2014-03-20 18:29:27,409 ERROR [main] [h] 
+You should manually create an object corresponding to your Application using Application ID: touchtest-7859a2f0-5834-4d83-afa4-7aa162716d52://
+
