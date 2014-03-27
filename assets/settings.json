@@ -1,5 +1,5 @@
 {
-    //"GDLibraryMode": "GDEnterpriseSimulation",
+    "GDLibraryMode": "GDEnterpriseSimulation",
     "GDConsoleLogger": [
         "GDFilterErrors_",
         "GDFilterWarnings_",
